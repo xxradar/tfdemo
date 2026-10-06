@@ -9,12 +9,12 @@ terraform {
 }
 
 resource "local_file" "hello_world" {
-  filename = "${path.module}/hello_World.txt"
+  filename = "${path.module}/Hello_World.txt"
   content  = "Hello, World!\n"
 }
 
 
 resource "local_file" "demo" {
-  filename = "${path.module}/Demo_system.txt"
+  filename = "${path.module}/Demo_System.txt"
   content  = "Test System!\n"
 }
