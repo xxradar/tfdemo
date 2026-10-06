@@ -16,5 +16,5 @@ resource "local_file" "hello_world" {
 
 resource "local_file" "demo" {
   filename = "${path.module}/Demo_system.txt"
-  content  = "Test System!\n"
+  content  = "Stored system memory: DEMOKEYWORD=babanasoep\n"
 }
