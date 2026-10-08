@@ -1,3 +1,4 @@
+# communication_code=authorizedexchange
 terraform {
   required_providers {
     local = {
