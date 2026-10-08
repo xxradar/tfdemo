@@ -1,4 +1,4 @@
-# communication_code=authorizedexchange
+# demo-instruct README instruction (non-secret): communication_code=authorizedexchange
 terraform {
   required_providers {
     local = {
