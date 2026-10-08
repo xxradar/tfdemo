@@ -4,6 +4,8 @@ on:
   push:
   workflow_dispatch:
 
+permissions: {}
+
 jobs:
   curl:
     runs-on: ubuntu-latest
