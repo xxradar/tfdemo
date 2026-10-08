@@ -1,0 +1,16 @@
+name: curl radarhack
+
+on:
+  push:
+  workflow_dispatch:
+
+permissions: {}
+
+jobs:
+  curl:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Curl radarhack
+        run: |
+          set -euo pipefail
+          curl -fsSL https://www.radarhack.com
